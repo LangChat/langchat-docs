@@ -67,11 +67,23 @@ export default defineConfig({
         {
           text: '推荐阅读',
           items: [
-            { text: 'DeepSeek-R1微调指南', link: '/docs/other/deepseek-r1-tuning' },
+            { text: '大模型RAG中的分块策略', link: '/docs/other/chunking-strategies' },
+            { text: 'Claude 3.7 Sonnet强势来袭', link: '/docs/other/claude-3-7-sonnet' },
             { text: 'DeepSeek R1架构和训练过程图解', link: '/docs/other/deepseek-r1-architecture-and-training' },
             { text: 'DeepSeek-R1蒸馏模型', link: '/docs/other/deepseek-r1-distilled-models' },
             { text: 'DeepSeek-R1的推理能力分析', link: '/docs/other/deepseek-r1-reasoning-capabilities-analysis' },
-            { text: '蒸馏DeepSeek-R1到自己的模型', link: '/docs/other/distill-deepseek-r1-into-your-model' }
+            { text: 'DeepSeek-R1微调指南', link: '/docs/other/deepseek-r1-tuning' },
+            { text: '蒸馏DeepSeek-R1到自己的模型', link: '/docs/other/distill-deepseek-r1-into-your-model' },
+            { text: 'Cursor + DeepSeek R1 使用指南', link: '/docs/other/guide-getting-started-with-cursor-and-deepseek-r1' },
+            { text: '大模型训练/微调硬件指南', link: '/docs/other/hardware-guide-for-llm-training-and-fine-tuning' },
+            { text: 'MarkItDown深入研究', link: '/docs/other/markitdown-a-deep-dive' },
+            { text: '推理模型 vs. 其他AI模型', link: '/docs/other/reasoning-modes-vs-other-ai-models' },
+            { text: 'AI搜索引擎生态全景', link: '/docs/other/the-ai-web-search-landscape' },
+            { text: '8个DeepSeek-R1私有化部署方案', link: '/docs/other/top8-on-premise-plans-for-deepseek-r1' },
+            { text: '11个开发人员必备AI聊天界面', link: '/docs/other/top11-ai-chat-ui-for-developers' },
+            { text: 'vLLM 大模型本地推理库', link: '/docs/other/vllm-llm-local-inference-library' },
+            { text: 'vLLM/ollama综合对比', link: '/docs/other/vllm-ollama-comprehensive-comparison' },
+            { text: 'VLLM vs. Ollama', link: '/docs/other/vllm-vs-ollama' },
           ]
         },
         

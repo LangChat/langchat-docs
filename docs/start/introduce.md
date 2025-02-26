@@ -39,45 +39,47 @@ LangChat不仅为企业提供AI领域的产品解决方案，也是一个完整�
 ```text copy
 .
 ├── LICENSE
-├── README.md
-├── docker
-├── docs
-├── langchat-biz-ops
-│   ├── langchat-biz-auth
-│   ├── langchat-biz-bootstrap
-│   ├── langchat-upms
+├── langchat-ai
+│   ├── langchat-ai-biz
+│   ├── langchat-ai-core
 │   └── pom.xml
+├── langchat-auth
+│   ├── pom.xml
+│   ├── src
+│   └── target
 ├── langchat-common
 │   ├── langchat-common-ai
 │   ├── langchat-common-auth
 │   ├── langchat-common-bom
 │   ├── langchat-common-core
-│   ├── langchat-common-es
 │   ├── langchat-common-oss
 │   └── pom.xml
-├── langchat-llm-ops
-│   ├── langchat-ai
-│   ├── langchat-aigc
-│   ├── langchat-llm-auth
-│   ├── langchat-llm-bootstrap
-│   └── pom.xml
-├── langchat-ui-package
-│   ├── README.md
-│   ├── apps
-│   ├── cspell.json
-│   ├── eslint.config.mjs
-│   ├── internal
+├── langchat-server
+│   ├── pom.xml
+│   ├── script
+│   ├── src
+│   └── target
+├── langchat-ui
+│   ├── build
+│   ├── commitlint.config.js
+│   ├── components.d.ts
+│   ├── dist
+│   ├── index.html
 │   ├── node_modules
 │   ├── package.json
-│   ├── packages
 │   ├── pnpm-lock.yaml
-│   ├── pnpm-workspace.yaml
-│   ├── scripts
-│   ├── stylelint.config.mjs
-│   ├── tea.yaml
-│   ├── turbo.json
-│   ├── vben-admin.code-workspace
-│   ├── vitest.config.ts
-│   └── vitest.workspace.ts
+│   ├── postcss.config.js
+│   ├── prettier.config.js
+│   ├── public
+│   ├── src
+│   ├── stylelint.config.js
+│   ├── tailwind.config.js
+│   ├── tsconfig.json
+│   ├── types
+│   └── vite.config.ts
+├── langchat-upms
+│   ├── langchat-upms-api
+│   ├── langchat-upms-biz
+│   └── pom.xml
 └── pom.xml
 ```

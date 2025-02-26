@@ -4,25 +4,13 @@
 
 ### 前端基础环境
 
-- Node.js > 18
+- Node.js > 22
 
-建议安装并使用 `pnpm install`，不建议使用 `npm` 或 `yarn`。如果你是中国用户并遇到下载速度问题，推荐使用以下镜像源：
+安装并使用 `pnpm install`。如果你是中国用户并遇到下载速度问题，推荐使用以下镜像源：
+
+注意：不要使用npm
 
 ::: code-group
-
-```bash [npm]
-# 设置为国内镜像
-npm config set registry https://registry.npmmirror.com
-# 设置为官方镜像
-npm config set registry https://registry.npmjs.org/
-```
-
-```bash [yarn]
-# 设置为国内镜像
-yarn config set registry https://registry.npmmirror.com
-# 设置为官方镜像
-yarn config set registry https://registry.yarnpkg.com
-```
 
  ```bash [pnpm]
 # 设置为国内镜像
@@ -59,11 +47,7 @@ MySQL和Redis的安装这里不再说明，主要说一下PgVector向量数据�
 PgVector的开源地址：[https://github.com/pgvector/pgvector](https://github.com/pgvector/pgvector)
 你可以使用官方提供的本地安装方式。
 
-安装后需要**创建`langchat`数据库**，创建完成即可。
-
-**注意：** `application-dev.yml`中写了表名`vector_1`，注意此表是项目启动自动生成的，无需手动创建。
+安装后手动**创建`langchat`数据库**，创建完成即可。
 
 我这里提供Docker Compose一键部署脚本，此脚本在启动容器的时候会自动创建`langchat`数据库：
-
-![](/env-pg.png)
 

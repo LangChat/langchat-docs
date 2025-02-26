@@ -1,3 +1,5 @@
+## Claude 3.7 Sonnet强势来袭
+
 ### 关于LangChat
 
 **LangChat** 是Java生态下企业级AIGC项目解决方案，集成RBAC和AIGC大模型能力，帮助企业快速定制AI知识库、企业AI机器人。

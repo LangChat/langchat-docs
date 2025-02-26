@@ -18,19 +18,16 @@ git clone https://github.com/tycoding/langchat.git
 
 **前端**
 
-主要包含 `langchat-ui` 和 `langchat-ui-client` 两个模块，需要用`pnpm`下载依赖
+切换到`langchat-ui`，需要用`pnpm`下载依赖
 
 ```bash
 cd langchat-ui
-pnpm install
-
-cd langchat-ui-client
 pnpm install
 ```
 
 **后端**
 
-IDEA打开后会自动加载Maven依赖，除了上面两个`ui`模块，其余模块都是后端的。
+IDEA打开后会自动加载Maven依赖
 
 ### 环境配置
 
@@ -51,11 +48,6 @@ Clone下来的代码，首先你需要修改后端SpringBoot项目的配置文�
 `application-dev.yml`包含了最基础的环境配置要求：
 
 1. 正常启动项目，必须配置好`mysql`、`redis`信息
-2. `langchat.auth`定义了后台管理系统**超级管理员**账号的登录信息，`is-demo-dev`为是否开启演示环境
-3. `langchat.vectorstore`定义了LLM向量库的信息，目前LangChat采用`PgVector`向量数据库
-4. `langchat.web-search.google`定义了谷歌搜索功能的key信息，这个看情况配置
-
-另外：因为LLM大模型的配置是在前端动态配置的，因此不需要在配置文件中定义了，但是考虑到向量库一般不能轻易改变，因此vectorStore的配置仍放在配置文件中
 
 ### 启动后端项目
 
@@ -79,19 +71,3 @@ pnpm run dev
 
 ![](/langchat-ui.png)
 
-
-### 启动langchat-ui-client前端
-
-前端基于Node，先安装依赖再启动项目，运行如下命令：
-
-```shell
-cd langchat-ui-client
-
-pnpm install
-
-pnpm run dev
-```
-
-启动后访问 `http://localhost:1002/` 跳转到客户端系统首页
-
-![](/env-client.png)
