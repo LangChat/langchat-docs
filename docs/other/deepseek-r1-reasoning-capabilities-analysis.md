@@ -2,6 +2,21 @@
 
 > DeepSeek 提出了一个模型，该模型的推理能力可与 OpenAI-o1 相媲美，尽管其参数只是 OpenAI-o1 的一小部分，训练成本也低得多。
 
+### 关于LangChat
+
+**LangChat** 是Java生态下企业级AIGC项目解决方案，集成RBAC和AIGC大模型能力，帮助企业快速定制AI知识库、企业AI机器人。
+
+**支持的AI大模型：** Gitee AI / 阿里通义 / 百度千帆 / DeepSeek / 抖音豆包 / 智谱清言 / 零一万物 / 讯飞星火 / OpenAI / Gemini / Ollama / Azure / Claude 等大模型。
+
+- 官网地址：[http://langchat.cn/](http://langchat.cn/)
+
+**开源地址：**
+
+- Gitee：https://gitee.com/langchat/langchat
+- Github：https://github.com/tycoding/langchat
+
+![iShot_2025-02-12_12.18.53](http://cdn.tycoding.cn/docs/202502151026673.png)
+
 ![DeepSeek-R1的推理能力分析](http://www.hubwiz.com/blog/content/images/size/w2000/2025/02/deepseek-r1-reasoning-capabilities-analysis-1.png)
 
 DeepSeek 提出了一个模型，该模型的推理能力可与 OpenAI-o1 相媲美，尽管其参数只是 OpenAI-o1 的一小部分，训练成本也低得多。

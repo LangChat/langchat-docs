@@ -2,6 +2,21 @@
 
 > 为了让一切变得简单，我们将使用手绘流程图和简单的计算来帮助从头开始澄清DeeoSeek-R1的核心概念。
 
+### 关于LangChat
+
+**LangChat** 是Java生态下企业级AIGC项目解决方案，集成RBAC和AIGC大模型能力，帮助企业快速定制AI知识库、企业AI机器人。
+
+**支持的AI大模型：** Gitee AI / 阿里通义 / 百度千帆 / DeepSeek / 抖音豆包 / 智谱清言 / 零一万物 / 讯飞星火 / OpenAI / Gemini / Ollama / Azure / Claude 等大模型。
+
+- 官网地址：[http://langchat.cn/](http://langchat.cn/)
+
+**开源地址：**
+
+- Gitee：https://gitee.com/langchat/langchat
+- Github：https://github.com/tycoding/langchat
+
+![iShot_2025-02-12_12.18.53](http://cdn.tycoding.cn/docs/202502151026673.png)
+
 ![DeepSeek R1架构和训练过程图解](http://www.hubwiz.com/blog/content/images/size/w2000/2025/02/deepseek-r1-architecture-and-training-process.png)
 
 如果你对 AI 感兴趣，可能听说过 DeepSeek R1。它目前在 LLM 领域很流行，并且表现优于开源和闭源模型。
@@ -564,4 +579,17 @@ Total Reward = (1 * Accuracy Reward) + (0.2 * Language Consistency Reward)
 - 蒸馏模型：学生模型现在被精炼成更小的版本，但保留了 DeepSeek-R1 的大部分推理能力。
 - 结果：你将获得更小、更快且具有良好推理能力的模型，随时可以部署。
   
+
+
+
+## 联系我
+
+最后，推荐大家关注一下开源项目：LangChat，Java生态下的AIGC大模型产品解决方案。
+
+- LangChat产品官网：https://langchat.cn/
+- Github: https://github.com/TyCoding/langchat
+- Gitee: https://gitee.com/langchat/langchat
+- 微信：LangchainChat
+
+![](http://cdn.tycoding.cn/docs/202502151026673.png)
 

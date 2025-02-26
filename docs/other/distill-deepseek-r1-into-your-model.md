@@ -2,6 +2,23 @@
 
 在本博客中，我们将介绍如何使用LoRA等技术将 DeepSeek-R1 的推理能力蒸馏到较小的模型（如 Microsoft 的 Phi-3-Mini）中。
 
+
+
+### 关于LangChat
+
+**LangChat** 是Java生态下企业级AIGC项目解决方案，集成RBAC和AIGC大模型能力，帮助企业快速定制AI知识库、企业AI机器人。
+
+**支持的AI大模型：** Gitee AI / 阿里通义 / 百度千帆 / DeepSeek / 抖音豆包 / 智谱清言 / 零一万物 / 讯飞星火 / OpenAI / Gemini / Ollama / Azure / Claude 等大模型。
+
+- 官网地址：[http://langchat.cn/](http://langchat.cn/)
+
+**开源地址：**
+
+- Gitee：https://gitee.com/langchat/langchat
+- Github：https://github.com/tycoding/langchat
+
+![iShot_2025-02-12_12.18.53](http://cdn.tycoding.cn/docs/202502151026673.png)
+
 ![蒸馏DeepSeek-R1到自己的模型](http://www.hubwiz.com/blog/content/images/size/w2000/2025/02/distill-deepseek-r1-into-your-model.png)
 
 深度学习模型彻底改变了人工智能领域，但其庞大的规模和计算需求可能会成为实际应用的瓶颈。模型蒸馏是一种强大的技术，它通过将知识从大型复杂模型（教师）转移到较小、更高效的模型（学生）来解决这一挑战。
@@ -294,3 +311,19 @@ print(output[0]['generated_text'])
 ![img](http://www.hubwiz.com/blog/content/images/2025/02/image-77.png)蒸馏后的 Phi 推理
 
 最后，将蒸馏后的模型权重推送到 [huggingface hub](https://huggingface.co/GPD1/DeepSeek-R1-Distill-phi-3-mini-4k-lorar8-alpha16-50000samples)（repo_id： `GPD1/DeepSeek-R1-Distill-phi-3-mini-4k-lorar8-alpha16–50000samples`）。
+
+
+
+
+
+## 联系我
+
+最后，推荐大家关注一下开源项目：LangChat，Java生态下的AIGC大模型产品解决方案。
+
+- LangChat产品官网：https://langchat.cn/
+- Github: https://github.com/TyCoding/langchat
+- Gitee: https://gitee.com/langchat/langchat
+- 微信：LangchainChat
+
+![](http://cdn.tycoding.cn/docs/202502151026673.png)
+

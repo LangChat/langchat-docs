@@ -2,6 +2,21 @@
 
 > 在这篇博文中，我们将逐步指导你在消费级 GPU 上使用 LoRA（低秩自适应）和 Unsloth 对 DeepSeek-R1 进行微调。
 
+### 关于LangChat
+
+**LangChat** 是Java生态下企业级AIGC项目解决方案，集成RBAC和AIGC大模型能力，帮助企业快速定制AI知识库、企业AI机器人。
+
+**支持的AI大模型：** Gitee AI / 阿里通义 / 百度千帆 / DeepSeek / 抖音豆包 / 智谱清言 / 零一万物 / 讯飞星火 / OpenAI / Gemini / Ollama / Azure / Claude 等大模型。
+
+- 官网地址：[http://langchat.cn/](http://langchat.cn/)
+
+**开源地址：**
+
+- Gitee：https://gitee.com/langchat/langchat
+- Github：https://github.com/tycoding/langchat
+
+![iShot_2025-02-12_12.18.53](http://cdn.tycoding.cn/docs/202502151026673.png)
+
 ![DeepSeek-R1微调指南](http://www.hubwiz.com/blog/content/images/size/w2000/2025/02/deepseek-r1-fine-tuning-guide.png)
 
 
@@ -185,3 +200,17 @@ tokenizer.save_pretrained("./finetuned_deepseek_r1")
 ## 8、结束语
 
 通过利用 LoRA 和 Unsloth，我们成功地在消费级 GPU 上微调了 DeepSeek-R1，显著降低了内存和计算要求。这使得更快、更易于访问的 AI 模型训练成为可能，而无需昂贵的硬件。
+
+
+
+## 联系我
+
+最后，推荐大家关注一下开源项目：LangChat，Java生态下的AIGC大模型产品解决方案。
+
+- LangChat产品官网：https://langchat.cn/
+- Github: https://github.com/TyCoding/langchat
+- Gitee: https://gitee.com/langchat/langchat
+- 微信：LangchainChat
+
+![](http://cdn.tycoding.cn/docs/202502151026673.png)
+

@@ -2,6 +2,21 @@
 
 > DeepSeek-R1已经在多个基准测试中超越了 SOTA 推理模型 OpenAI-o1。在这篇文章中，我们将深入研究DeepSeek-R1的6 个蒸馏模型。
 
+### 关于LangChat
+
+**LangChat** 是Java生态下企业级AIGC项目解决方案，集成RBAC和AIGC大模型能力，帮助企业快速定制AI知识库、企业AI机器人。
+
+**支持的AI大模型：** Gitee AI / 阿里通义 / 百度千帆 / DeepSeek / 抖音豆包 / 智谱清言 / 零一万物 / 讯飞星火 / OpenAI / Gemini / Ollama / Azure / Claude 等大模型。
+
+- 官网地址：[http://langchat.cn/](http://langchat.cn/)
+
+**开源地址：**
+
+- Gitee：https://gitee.com/langchat/langchat
+- Github：https://github.com/tycoding/langchat
+
+![iShot_2025-02-12_12.18.53](http://cdn.tycoding.cn/docs/202502151026673.png)
+
 ![DeepSeek-R1蒸馏模型](http://www.hubwiz.com/blog/content/images/size/w2000/2025/01/deepseek-r1-distilled-models.png)
 
 DeepSeek 在 DeepSeek-V3 之后发布了另一个革命性的模型，即 DeepSeek-R1，这看起来像是一个重大版本，因为这个模型已经在多个基准测试中超越了 SOTA 推理模型 OpenAI-o1。
@@ -93,3 +108,17 @@ vllm serve deepseek-ai/DeepSeek-R1-Distill-Qwen-32B --tensor-parallel-size 2 --m
 DeepSeek-R1 蒸馏模型弥合了高性能和效率之间的差距，使更广泛的受众能够使用高级推理功能。此版本标志着AI民主化和实现尖端推理模型的实际应用迈出了重要一步。
 
 如果你使用的是消费级 PC，我建议你尝试精简模型，因为原始 R1 模型非常庞大，可能放不下。
+
+
+
+## 联系我
+
+最后，推荐大家关注一下开源项目：LangChat，Java生态下的AIGC大模型产品解决方案。
+
+- LangChat产品官网：https://langchat.cn/
+- Github: https://github.com/TyCoding/langchat
+- Gitee: https://gitee.com/langchat/langchat
+- 微信：LangchainChat
+
+![](http://cdn.tycoding.cn/docs/202502151026673.png)
+
