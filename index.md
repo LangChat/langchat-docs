@@ -12,7 +12,7 @@ hero:
       link: https://langchat.cn
     - theme: brand
       text: LangChat使用文档
-      link: /langchat/docs/introduce
+      link: /docs/exercise/langchat-deepseek-r1
     - theme: alt
       text: Github开源地址
       link: https://github.com/TyCoding/langchat
